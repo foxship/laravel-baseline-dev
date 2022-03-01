@@ -1,0 +1,34 @@
+{
+    "name": "foxship/laravel-baseline-dev",
+    "description": "",
+    "type": "library",
+    "require": {
+        "larastan/larastan": "^3",
+        "friendsofphp/php-cs-fixer": "^3.8"
+    },
+    "license": "BSD-4-Clause",
+    "autoload": {
+        "psr-4": {
+            "LeoUnglaub\\LaravelBaselineDev\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Foxship Technologies",
+            "email": "tech@foxship.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Foxship\\LaravelBaselineDev\\LaravelBaselineDevServiceProvider"
+            ],
+            "aliases": {}
+        },
+        "phpstan": {
+            "includes": [
+                "phpstan-default.neon"
+            ]
+        }
+    }
+}
