@@ -7,4 +7,4 @@
  * @see https://code.foxship.com/foxship/server
  */
 
-return new LeoUnglaub\LaravelBaselineDev\PhpCsFixer\Config();
+return new Foxship\LaravelBaselineDev\PhpCsFixer\Config();

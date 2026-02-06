@@ -1,6 +1,6 @@
 <?php
 
-namespace LeoUnglaub\LaravelBaselineDev;
+namespace Foxship\LaravelBaselineDev;
 
 use Illuminate\Support\ServiceProvider;
 
