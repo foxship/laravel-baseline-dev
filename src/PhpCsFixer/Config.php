@@ -1,6 +1,6 @@
 <?php
 
-namespace LeoUnglaub\LaravelBaselineDev\PhpCsFixer;
+namespace Foxship\LaravelBaselineDev\PhpCsFixer;
 
 use PhpCsFixer\Config as PhpCsFixerConfig;
 

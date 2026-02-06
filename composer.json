@@ -9,7 +9,7 @@
     "license": "BSD-4-Clause",
     "autoload": {
         "psr-4": {
-            "LeoUnglaub\\LaravelBaselineDev\\": "src/"
+            "Foxship\\LaravelBaselineDev\\": "src/"
         }
     },
     "authors": [
