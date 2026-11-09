@@ -17,7 +17,6 @@ class Config extends PhpCsFixerConfig
 		$this
 			->setRiskyAllowed(true)
 			->setUsingCache(true)
-			->setUnsupportedPhpVersionAllowed(true)
 			->setFinder($this->getCustomFinder())
 			->setRules($this->getCustomRules())
 			->setIndent("\t")
