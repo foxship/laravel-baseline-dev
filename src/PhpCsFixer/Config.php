@@ -35,7 +35,8 @@ class Config extends PhpCsFixerConfig
 
 	/**
 	 * Define all custom rules.
-	 */
+	 * @return array<string,mixed>
+ 	 */
 	protected function getCustomRules(): array
 	{
 		return [
