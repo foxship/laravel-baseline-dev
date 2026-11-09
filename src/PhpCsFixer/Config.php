@@ -43,6 +43,7 @@ class Config extends PhpCsFixerConfig
 			'@Symfony' => true,
 			'no_useless_return' => true,
 			'phpdoc_order' => true,
+			'phpdoc_types' => false,
 			'align_multiline_comment' => [
 				'comment_type' => 'all_multiline',
 			],
